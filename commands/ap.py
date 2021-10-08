@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from  openpyxl import *
 
-dosya = load_workbook("Dictator-GS.xlsx")
+dosya = load_workbook("clan-power.xlsx")
 dosya.get_sheet_by_name("Sayfa1")
 sheet = dosya.active
 
